@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #525252;
+  padding-top: 50px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+p {
+  color: darkolivegreen;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>Taiwanese Food</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://www.dotsonamap.net/everything-you-need-to-know-about-taiwanese-beef-noodle-soup/">Beef Noodle</a></li>
+      <li><a href="https://twinings.co.uk/blogs/news/what-is-bubble-tea">Bubble Tea</a></li>
+      <li><a href="https://iheartumami.com/taiwanese-fried-chicken-cutlets/">Chicken Cutlet</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Beef Noodle</h1>
+    <p>Taiwanese beef noodle soup, 台灣牛肉麵 (tai wan niu rou mian), is an iconic Taiwanese dish featuring rich simmered beef broth, slow-braised stew beef and beef tendon, and hand-pulled noodles.</p>
+    <p>A variety of ingredients are used as toppings, the most common being pickled mustard greens, blanched bok choy, and a generous spoonful of chili sauce.</p>
+  </article>
+
+  <article>
+    <h1>Bubble Tea</h1>
+    <p>An incredibly unique looking beverage, Bubble tea is a Taiwanese recipe made by blending a tea base with milk, fruit and fruit juices, then adding the signature “bubbles” - yummy tapioca pearls that sit at the bottom.</p>
+    <p>Bubble tea is served in transparent cups with a fat straw so that - as you sip - the tapioca balls (also known as “pearls” or “boba”) come shooting up it and can be chewed as you swallow down the delicious liquid.</p>
+  </article>
+
+  <article>
+    <h1>Chicken Cutlet</h1>
+    <p>Crunchy alert! These Taiwanese Fried Chicken Cutlets (炸雞排) are seriously one of the best things from Taiwan! With a super crumbly and crispy coating, these chicken cutlets are deeply savory and come-in GIANT sizes.</p>
+    <p>The chicken cutlets are pound to super thin then seasoned with a special salt and pepper spice mix.</p>
+  </article>
+</section>
+
+<footer>
+  <h2>Hao Wen Lin</h2>
+  <a href="https://github.com/eric052199/245p.git" target="_blank">GitHub repo's link</a>
+</footer>
+
+</body>
+</html>
+
