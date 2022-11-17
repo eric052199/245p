@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML5 Layout</title>
+        <style type="text/css">
+            header, section, footer, aside, nav, article, figure, figcaption {
+                display: block;}
+            body {
+                color: #666666;
+                background-color: #f9f8f6;
+                background-image: url("https://media.istockphoto.com/photos/natural-wood-texture-background-picture-id921315052?b=1&k=20&m=921315052&s=170667a&w=0&h=Rrucdn-sdQvbT5wYOG0ckOXt8MWUVjBRd2OSgD2gxdI=");
+                background-position: center;
+                font-family: Georgia, times, serif;
+                line-height: 1.4em;
+                margin: 0px;}
+            .wrapper {
+                width: 940px;
+                margin: 20px auto 20px auto;
+                border: 2px solid #000000;
+                background-color: #ffffff;}
+            header {
+                height: 160px;
+                background-image: url("https://www.shutterstock.com/image-vector/horizontal-vector-banner-template-tea-600w-2100620035.jpg");}
+                
+            h1 {
+                text-indent: -9999px;
+                width: 940px;
+                height: 130px;
+                margin: 0px;}
+            nav, footer {
+                clear: both;
+                color: #ffffff;
+                background-color: #aeaca8;
+                height: 30px;}
+            nav ul {
+                margin: 0px;
+                padding: 5px 0px 5px 30px;}
+            nav li {
+                display: inline;
+                margin-right: 40px;}
+            nav li a { 
+                color: #ffffff;}
+            nav li a:hover, nav li a.current {
+                color: #000000;}
+            section.courses {
+                float: left;
+                width: 659px;
+                border-right: 1px solid #eeeeee;}
+            article {
+                clear: both;
+                overflow: auto;
+                width: 100%;}
+            hgroup {
+                margin-top:40px;}
+            figure {
+                float: left;
+                width: 290px;
+                height: 220px;
+                padding: 5px;
+                margin: 20px;
+                border: 1px solid #eeeeee;}
+            figcaption {
+                font-size: 90%;
+                text-align: left;}
+            aside {
+                width: 230px;
+                float: left;
+                padding: 0px 0px 0px 20px;}
+            aside section a {
+                display: block;
+                padding: 10px;
+                border-bottom: 1px solid #eeeeee;}
+            aside section a:hover {
+                color: #985d6a;
+                background-color: #efefef;}
+                a {
+                color: #de6581;
+                text-decoration: none;}
+            h1, h2, h3 {
+                font-weight: normal;}
+            h2 { 
+                margin: 10px 0px 5px 0px;
+                padding: 0px;}
+            h3 {
+                margin: 0px 0px 10px 0px;
+                color: #de6581;}
+            aside h2 {
+                padding: 30px 0px 10px 0px;
+                color: #de6581;}
+            footer {
+                font-size: 80%;
+                padding: 7px 0px 0px 20px;}
+        </style>
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>Tea Time</h1>
+                <nav>
+                    <ul>
+                        <li><a href="" class="current">signature</a></li>
+                        <li><a href="">menu</a></li>
+                        <li><a href="">locations</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">catering</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="courses">
+                <article>
+                    <figure>
+                        <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/AE8AB721-ACB5-4E82-845C-75CB6BCFFB96/Derivates/e3b88c15-1aea-4554-b9b0-77514681f359.jpg" width = "290" height = "200" alt="Bubble Tea" />
+                        <figcaption>Bubble Tea</figcaption>
+                    </figure>
+                    <hgroup>
+                        <h2>Bubble Tea</h2>
+                        <h3>Black tea with milk plus... <br/>
+                            TAPIOKA PEARLS</h3>
+                    </hgroup>
+                    <p>Our bubble teas with black tea and milk offer the perfect balance of sweetness. When ordering, you can decide to add ice to your bubble tea or not.</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="https://d1ralsognjng37.cloudfront.net/79e5cc37-0069-4c69-8bbf-b970425a2a22.jpeg" width = "290" height = "200" alt="Fruit Tea" />
+                        <figcaption>Fruit tea</figcaption>
+                    </figure>
+                    <hgroup>
+                        <h2>Fruit tea</h2>
+                        <h3>Sweetness and sourness that makes your day</h3>
+                    </hgroup>
+                    <p>AOur bubble teas with green tea and real fruit juice offer a fun and refreshing beverage. When ordering, you can adjust the sugar level to your taste.</p>
+                </article>
+            </section>
+            <aside>
+                <section class="other choices">
+                    <h2>Other choices</h2>
+                    <a href="">Green tea</a>
+                    <a href="">Fruit juice</a>
+                    <a href="">Black tea with milk</a>
+                    <a href="">Extras</a>
+                </section>
+                <section class="contact-details">
+                    <h2>Contact</h2>
+                    <p> Tea Time<br />
+                        76000 Verano Rd.<br />
+                        Irvine, CA 92617</p>
+                </section>
+            </aside>
+            <footer>
+                &copy; 2022 Tea Time
+            </footer>
+        </div><!-- .wrapper -->
+    </body>
+</html>
