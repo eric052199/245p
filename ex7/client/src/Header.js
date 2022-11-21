@@ -5,14 +5,13 @@ function Header() {
         <>
             <div className="header">
                 <a href="#default" className="logo">
-                    CompanyLogo
+                    Tea Time
                 </a>
                 <div className="headerRight">
                     <a className="active" href="#home">
                         Home
                     </a>
-                    <a href="#contact">Contact</a>
-                    <a href="#about">About</a>
+                    <a href="#about">Your order</a>
                 </div>
             </div>
         </>

@@ -1,9 +1,9 @@
 .sidenav {
-    height: 80%;
     width: 160px;
-    position: fixed;;
+    position: fixed;
     z-index: 1;
-    top: 10;
+    top: 90px;
+    bottom: 50px;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
@@ -23,9 +23,9 @@
 }
   
 .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+    margin-left: 160px; 
+    font-size: 28px; 
+    padding: 90px 10px;
 }
   
 @media screen and (max-height: 450px) {
